@@ -1,0 +1,3 @@
+content		pcache 					chrome/content/
+overlay		chrome://browser/content/browser.xul 	chrome://pcache/content/pcacheOverlay.xul
+locale		pcache		en-us

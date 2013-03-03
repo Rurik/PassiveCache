@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+
+		<em:id>{959615e6-98ef-4c26-9ce0-27b7ed3defa4}</em:id>
+		<em:name>Passive Cache</em:name>
+		<em:version>1.3.1</em:version>
+		<em:description>Retrieves a cached Google page of a link, as well as an Archive.org page, with no images and no connections to the remote site.</em:description>
+		<em:creator>Brian Baskin</em:creator>
+		<em:homepageURL>http://www.thebaskins.com</em:homepageURL>
+		<em:iconURL></em:iconURL>
+		<em:aboutURL>chrome://pcache/content/about.xul</em:aboutURL>
+		<em:type>2</em:type> 
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>3.5</em:minVersion>
+		        <em:maxVersion>4.0.*</em:maxVersion>
+
+			</Description>
+		</em:targetApplication>
+
+	</Description>
+
+</RDF>

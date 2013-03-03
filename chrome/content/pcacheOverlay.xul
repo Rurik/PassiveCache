@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<overlay id="pcacheOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+// Import javascript
+<script type="application/x-javascript" src="chrome://pcache/content/pcacheOverlay.js">
+</script>
+
+
+// Setup right click menu
+<menupopup id="contentAreaContextMenu">
+  <menuitem id="pcachelink" 
+	label="PassiveCache Google This Link" 
+	accesskey="P"
+	insertafter="context-selectall"
+	oncommand="pcache.pcachelink();"/>
+
+  <menuitem id="parccachelink" 
+	label="PassiveCache Archive This Link" 
+	accesskey="C" 
+	insertafter="context-selectall"
+	oncommand="pcache.parccachelink();"/>
+
+</menupopup>
+
+
+</overlay>
+
